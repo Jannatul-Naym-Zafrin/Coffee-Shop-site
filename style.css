@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(coffee4.jpg);
+    /* background-color: bisque; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.left h2 {
+    /* background-color: aqua; */
+    font-size: 50px;
+    color: white;
+    font-family: "Caveat", cursive;
+    margin: 10px 20px;
+}
+
+/* .left {
+    background-color: blueviolet;
+} */
+
+.mid ul {
+    display: flex;
+    color: white;
+    /* text-decoration: none; */
+    gap: 30px;
+    text-align: center;
+}
+
+.mid ul li a {
+    text-decoration: none;
+    /* text-align: center; */
+    color: white;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+
+
+}
+
+header {
+    display: flex;
+}
+
+.mid {
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.r1 {
+    height: 50px;
+    width: 100px;
+    /* background-color: aqua; */
+    margin: 10px 10px;
+    /* padding: 3px; */
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+.p {
+    color: white;
+    font-size: 20px;
+    margin: 15px 20px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
+
+.in {
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 30px;
+    color: white;
+    /* margin: 90px 200px 5px 200px; */
+
+}
+
+.icon {
+    /* gap: 20px; */
+    padding-top: 8.5%;
+    /* margin-top: 5%; */
+    margin-left: 2.5%;
+    gap: 5%;
+}
+
+.paragraph h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.paragraph h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.paragraph {
+    margin: 7%;
+}
+
+
+.sp {
+    font-size: 75px;
+    color: white;
+}
+
+.main-div {
+    display: flex;
+    margin-top: 7%;
+    /* justify-content: space-evenly; */
+}
